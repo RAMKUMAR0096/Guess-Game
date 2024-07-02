@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Guess-Game/static/css/main.eb7d45ce.css",
+    "main.js": "/Guess-Game/static/js/main.07789ea1.js",
+    "static/js/453.2165ce42.chunk.js": "/Guess-Game/static/js/453.2165ce42.chunk.js",
+    "static/media/sunrise.mp4": "/Guess-Game/static/media/sunrise.885ad05c68211bf9d9ba.mp4",
+    "static/media/aero.mp4": "/Guess-Game/static/media/aero.7306e7aa503ea4e68bf2.mp4",
+    "static/media/rk_img.png": "/Guess-Game/static/media/rk_img.918c0b2acff48b37cdb3.png",
+    "index.html": "/Guess-Game/index.html",
+    "main.eb7d45ce.css.map": "/Guess-Game/static/css/main.eb7d45ce.css.map",
+    "main.07789ea1.js.map": "/Guess-Game/static/js/main.07789ea1.js.map",
+    "453.2165ce42.chunk.js.map": "/Guess-Game/static/js/453.2165ce42.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb7d45ce.css",
+    "static/js/main.07789ea1.js"
+  ]
+}

@@ -109,7 +109,9 @@ input{
   /* border: solid 2px; */
 }
 .easy-btn:hover{
-  background-color: green
+  border-radius: 10px;
+  font-size: larger;
+  font-weight: 700;
 }
 .medium-btn{
   width: 100px;
@@ -124,8 +126,9 @@ input{
   border: solid 1px;
 }
 .medium-btn:hover{
-  background-color: rgb(218, 245, 66);
-  color: black; 
+  border-radius: 10px;
+  font-size: larger;
+  font-weight: 700;
 }
 .hard-btn{
   width: 100px;
@@ -140,7 +143,9 @@ input{
   border: solid 1px;
 }
 .hard-btn:hover{
-  background-color: rgb(255, 33, 4); 
+  border-radius: 10px;
+  font-size: larger;
+  font-weight: 700;
 }
 .cus-lev{
   margin: auto;

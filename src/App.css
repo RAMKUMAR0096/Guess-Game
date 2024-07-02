@@ -36,3 +36,162 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-color: transparent;
+  align-items: center;
+  color: aliceblue;
+}
+.container{
+  display: flex;
+  /* align-items: center; */
+  margin: auto;
+  width: auto;
+  height: auto;
+  border: solid 2px;
+  border-radius: 25px;
+  flex-direction: column;
+  padding: 10px;
+  color: aliceblue;
+}
+.head{
+  font-weight: 500;
+  color: antiquewhite;
+  margin-bottom: 7px;
+  text-align: center;
+
+}
+label{
+  font-size: 20px;
+  font-weight: 700;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input{
+  margin-top: 10px;
+  padding: 15px;
+  width: auto;
+  border-radius: 10px;
+  border: #61dafb;
+}
+.newgame-btn{
+  background-color: rgb(7, 207, 124);
+  width: 100px;
+  height: auto;
+  padding: 5px;
+  margin: auto;
+  border-radius: 25px;
+  margin-bottom: 20px;
+
+}
+.newgamebtn:hover{
+  background-color: rgb(4, 218, 15);
+}
+.tryagain-btn{
+  background-color: rgb(250, 42, 6);
+  width: 100px;
+  height: auto;
+  padding: 5px 5px;
+  margin: auto;
+  text-align: center;
+  border-radius: 25px;
+}
+.easy-btn{
+  width: 100px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+  background-color:transparent;
+  color: white;
+  border-radius: 25px;
+  /* border-color: black; */
+  padding: 5px;
+  border: solid 1px;
+  /* border: solid 2px; */
+}
+.easy-btn:hover{
+  background-color: green
+}
+.medium-btn{
+  width: 100px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+  background-color: transparent;
+  color:white;
+  border-radius: 25px;
+  /* border-color: ; */
+  padding: 5px;
+  border: solid 1px;
+}
+.medium-btn:hover{
+  background-color: rgb(218, 245, 66);
+  color: black; 
+}
+.hard-btn{
+  width: 100px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+  background-color: transparent;
+  color: white;
+  border-radius: 25px;
+  /* border-color: rgb(114, 187, 5); */
+  padding: 5px;
+  border: solid 1px;
+}
+.hard-btn:hover{
+  background-color: rgb(255, 33, 4); 
+}
+.cus-lev{
+  margin: auto;
+  margin-bottom: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img{
+  margin: auto;
+  text-align:center;
+  margin-top: -60px;
+  width: auto;
+  height: auto;
+}
+.home-cont{
+  margin: auto;
+  background-color: transparent;
+  text-align: center;
+  /* margin-top: 250px; */
+  padding: 20px;
+}
+.hh{
+  /* display: flex; */
+  text-align: center;
+}
+
+/* BackgroundVideo.css */
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full height */
+  overflow: hidden;
+}
+
+.video-background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  z-index: -1; /* Behind other content */
+  background-size: cover;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: white; /* Adjust text color as needed */
+  text-align: center;
+  padding: 20px
+}

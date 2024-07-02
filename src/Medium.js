@@ -72,7 +72,7 @@ export const Medium = () => {
           </div>
           <div className="container">
             <div className='head'>
-              <label htmlFor='term'>Guess the number between 1 to 20 (answeer:{secretNum})</label>
+              <label htmlFor='term'>Guess the number between 1 to 20</label>
             </div>
 
             <input type='text' id='term' placeholder='              Enter the number      ' name='term' onChange={handleChange} />

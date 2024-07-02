@@ -73,7 +73,7 @@ export const Easy = () => {
                     </div>
                     <div className="container">
                         <div className='head'>
-                            <label htmlFor='term'>Guess the number between 1 to 10 (answeer:{secretNum})</label>
+                            <label htmlFor='term'>Guess the number between 1 to 10</label>
                         </div>
 
                         <input type='text' id='term' name='term' onChange={handleChange} placeholder='              Enter the number      ' />
